@@ -190,6 +190,9 @@ button {
     .question-container{
         margin: 2em 0px;
         height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: start;
     }
 
     .question-container-contents{
@@ -198,7 +201,7 @@ button {
     }
 
     .question-text {
-        width: 90%;
+        width: 100%;
         font-size: 2.5rem;
         margin: 0;
         padding: 0 0 1em 0;
